@@ -1,7 +1,7 @@
 HoustonTest::Application.routes.draw do
   namespace :api do
     namespace :v1 do
-      get "devices/create"
+      get "devices/register"
       get "notifications/new"
       # get "session/create"
       # get "session/destroy"
