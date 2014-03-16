@@ -11,13 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140316161342) do
+ActiveRecord::Schema.define(version: 20140316163442) do
 
   create_table "applications", force: true do |t|
     t.string   "name"
     t.string   "token"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "locked"
   end
 
   create_table "devices", force: true do |t|
