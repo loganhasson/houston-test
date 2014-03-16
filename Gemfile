@@ -38,6 +38,7 @@ end
 gem 'unicorn'
 gem 'houston'
 gem 'sidekiq'
+gem 'pry'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development

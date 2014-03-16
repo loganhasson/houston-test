@@ -3,6 +3,7 @@ HoustonTest::Application.routes.draw do
     namespace :v1 do
       get "devices/register"
       get "notifications/new"
+      get "styles/latest"
       # get "session/create"
       # get "session/destroy"
       # get "account/update"
